@@ -1,0 +1,6 @@
+rl_agent/
+  ├─ __init__.py
+  ├─ dqn.py            # model + DQN logic
+  ├─ replay_buffer.py  # replay memory
+  ├─ utils.py          # seeding, logging, helpers
+  └─ train_dqn.py      # training entry point
