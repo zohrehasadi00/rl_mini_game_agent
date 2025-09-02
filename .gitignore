@@ -3,6 +3,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.egg-info/
+*.egg
+dist/
+build/
 
 # Virtual environment
 venv/
@@ -10,6 +14,25 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
-# VS Code
+# VS Code / IDEs
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# RL project outputs
+runs/           # TensorBoard logs
+checkpoints/    # Saved models
+videos/         # Evaluation videos
+logs/           # Any manual log outputs
+
+# Data exports
+*.csv
+*.json
+*.txt
